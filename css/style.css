@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: #fff1dbc7;
+    margin-top: 80px;
+}
+/* start header */
+
+.grow{
+    background-color: #795548;
+}
+
+.container{
+    background-color: #fff1dbc7;
+    margin-top: 80px;
+}
+
+.header{
+    width: 95%;
+    padding-top: 30px;
+}
+
+.header h3{
+    font-size: 17px;
+    font-weight: 600;
+    color: #795548;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li{
+    margin-right: 30px;
+}
+
+.header ul li a{
+    font-size: 13px;
+    color: #c77253;
+    padding: 10px;
+    border-radius: 30px;
+}
+.header ul li a:hover{
+    background-color: #795548;
+}
+
+@media(max-width:768px) {
+
+    .header ul {
+        display: none !important; 
+    }
+}
+
+@media(min-width:768px) {
+    .header .togle {
+        display: none;
+        background-color: #00000075;
+    }
+}
+
+@media(max-width:768px) {
+
+   .togle:hover ul {
+        display:block !important; 
+    }
+}
+.header i{
+    color: #795548;
+}
+
+.header button{
+    background-color: #fff1db78;
+    border: 2px solid #795548;
+}
+
+button:hover{
+    background-color: #795548;
+}
+
+.header button a{
+    color: #c77253;
+}
+/* end header */
+
+/* start home */
+.home{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.home .text h3{
+    width: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #795548;
+}
+
+.home .text p{
+   width: 80%;
+}
+
+.home img{
+    width: 40%;
+    border-radius: 50px;
+}
+/* end home */
+
+/* start browse */
+.browse{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.browse h3{
+    font-weight: 700;
+    color: #795548;
+}
+
+.browse p{
+    color: #795548;
+}
+
+.imgs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.browse .imgs-container img{
+    width:30% ;
+    margin-top: 50px;
+}
+
+.browse button{
+    border: 1px solid #795548;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.browse button:hover{
+    background-color: #795548;
+}
+
+.browse button a{
+    color: #c77253;
+}
+/* end beowse */
