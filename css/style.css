@@ -12,11 +12,7 @@ a{
     text-decoration: none;
 }
 
-.container{
-    background-color: #fff1dbc7;
-    margin-top: 80px;
-}
-/* start header */
+
 
 .grow{
     background-color: #795548;
@@ -24,12 +20,13 @@ a{
 
 .container{
     background-color: #fff1dbc7;
-    margin-top: 80px;
+   
 }
 
 .header{
     width: 95%;
     padding-top: 30px;
+
 }
 
 .header h3{
@@ -159,3 +156,172 @@ button:hover{
     color: #c77253;
 }
 /* end beowse */
+/* start products */
+ .products{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+ }
+
+ .products h3{
+    font-weight: 700;
+    color: #795548;
+ }
+ .products .img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 80px;
+ }
+ .img-box{
+   overflow: hidden;
+   position: relative;
+ }
+ .products img{
+    width: 70%;
+    max-width: 100%;
+ }
+ .img-container p{
+    color: #a8a8a8;
+ }
+
+ .img-container .img-box i{
+    color: gold;
+    margin-left: 10px;
+ }
+
+ .img-container .img-box h5,
+ h6{
+    color: #000000b3;
+    font-weight: 700;
+ }
+
+ .products button{
+    
+        border: 1px solid #795548;
+        background-color: #fff;
+        margin-top: 20px;
+    }
+    
+    .products button:hover{
+        background-color: #795548;
+    }
+    
+    .products  button a{
+        color: #c77253;
+    }
+ 
+/* end products */
+
+/* start offer */
+.offer{
+    background-color: #fff1dbc7;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.offer img{
+    width: 40%;
+  margin-left: 50px;
+}
+
+@media(max-width:768px){
+    .offer img{
+width: 60%;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    }
+
+    .offer p{
+        margin-left: 20px;
+    }
+}
+.offer h3{
+    font-weight: 700;
+    color: #795548;
+}
+
+.offer p{
+    margin-left: 20px;
+    font-size: 15px;
+    color: #795548;
+    line-height: 1;
+}
+
+.offer .num{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.offer .num h6,
+span{
+    background-color: #fff;
+    padding: 10px;
+    color: #795548;
+}
+
+.offer .num span{
+    font-size: 12px;
+}
+.offer button{
+    
+    border: 1px solid #795548;
+    background-color: #795548;
+    margin-top: 20px;
+    padding: 10PX;
+}
+
+.offer  button a{
+    color: #FFF;
+}
+/* end offer */
+
+/* start feedback */
+.feedback{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.feedback h3{
+    font-weight: 700;
+    color: #795548;
+    margin-bottom: 70px;
+}
+
+.feedback .text{
+    display: flex;
+    
+}
+
+.feedback p{
+width: 90%;
+}
+
+.feedback i,
+h6{
+    color: #795548;
+    font-size: 20px;
+}
+
+.feedback .text1{
+    background-color:#957a4312;
+    
+}
+
+.feedback .text2{
+    background-color: #fff1dbc7;
+    margin-left: 30px;
+}
+
+.feedback .text3{
+    background-color: #957a4312;
+    margin-left: 30px;
+}
+/* end feedback */
