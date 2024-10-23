@@ -26,6 +26,7 @@ a{
 .header{
     width: 95%;
     padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -173,6 +174,12 @@ button:hover{
     align-items: center;
    margin-top: 80px;
  }
+
+ @media(max-width:768px){
+    .products .img-container{
+        flex-wrap: wrap;
+    }
+ }
  .img-box{
    overflow: hidden;
    position: relative;
@@ -300,6 +307,12 @@ span{
     
 }
 
+@media(max-width:768px){
+    .feedback .text{
+        flex-wrap: wrap;
+    }
+ }
+
 .feedback p{
 width: 90%;
 }
@@ -314,14 +327,120 @@ h6{
     background-color:#957a4312;
     
 }
+@media(max-width:768px){
+.feedback .text1{
+    margin-bottom: 60px;
+}
+}
 
 .feedback .text2{
     background-color: #fff1dbc7;
     margin-left: 30px;
 }
 
+@media(max-width:768px){
+    .feedback .text2{
+        margin-bottom: 60px;
+        margin-left: 0;
+    }
+}
 .feedback .text3{
     background-color: #957a4312;
     margin-left: 30px;
 }
+
+@media(max-width:768px){
+    .feedback .text3{
+        margin-left:0;
+    }
+}
 /* end feedback */
+
+/* start footer */
+.footer{
+    background-color: #795548;
+    color: #fff1dbc7;
+}
+.footer h3{
+    margin-left: 20px;
+}
+.footer ul{
+    margin-top: 70px;
+    list-style: none;
+}
+.footer ul  a{
+    color: #fff1dbc7;
+    text-decoration: none;
+}
+
+.footer ul a:hover{
+    color: #c77253;
+}
+
+.footer form{
+    margin-right: 20px;
+}
+
+.footer form input{
+    background-color: #795548;
+    border: 1px solid #fff1dbc7;
+    padding: 5px;
+    color: #fff1dbc7;
+}
+
+.footer form button{
+    background-color: #fff1dbc7;
+    color: #795548;
+}
+.logo {
+    text-align: end;
+    margin-right: 20px;
+    font-size: 30px;
+}
+@media(max-width:768px){
+    .cam{
+        flex-wrap: wrap;
+    }
+
+    .footer ul{
+        margin-right: 15px;
+    }
+
+    .footer input{
+        margin-left: 20px;
+    }
+    
+    .logo{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}
+
+/* end footer */
+
+
+
+
+
+/* start shop */
+.shop-container{
+    text-align: center;
+    padding-top:60px ;
+    padding-bottom: 60px;
+}
+
+.shop-container h3{
+    color: #795548;
+    font-weight: 700;
+}
+
+.shop-container .img-container .img-box img{
+  width: 80%;
+}
+
+@media(max-width:768px){
+    .shop-container .img-container{
+        flex-wrap: wrap;
+    }
+ }
+/* end shop */
